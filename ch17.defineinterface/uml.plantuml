@@ -1,0 +1,21 @@
+@startuml uml
+interface Mind {
+
+    void hate();
+    void love();
+}
+
+interface brain extends Mind {
+
+    void understand();
+    void calmdown();
+
+}
+
+class IAm implements brain {
+
+    public void hate()
+    public void love()
+    public void understand()
+}
+@enduml
